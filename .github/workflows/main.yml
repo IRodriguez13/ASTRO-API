@@ -2,7 +2,7 @@ name: Run NUnit Tests
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, production ]
   pull_request:
     branches: [ master ]
 
